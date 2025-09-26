@@ -11,7 +11,7 @@ Guangdong University of Technology
 This is the implement of article *"Inverse design of tunable high-sensitivity Fano resonators with black phosphorus utilizing deep learning"*. In this work we take black phosphorus as an example to design tunable Fano resonators. 
 
 
-## Geting Started
+## Getting Started
 ### Installation
 
 Before you started S4 should be installed first. Please follow appendix section to install S4 because this part will take you a lot more time and occupy a lot of space here. 
@@ -149,4 +149,5 @@ When make is complete, run:
 $ pip install ./
 
 ```
+
 

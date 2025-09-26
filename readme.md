@@ -1,6 +1,7 @@
  # Inversly designing tunable Fano resonators with 2D materials using S4, LNN and DE
 
 Please refer my [paper](https://iopscience.iop.org/article/10.1088/1402-4896/adfbc7) if you are interested in this project. Thank you.
+
 https://iopscience.iop.org/article/10.1088/1402-4896/adfbc7
 
 Author: Xiatong Wang(me), Kaida Xu, Yuanmei Xu, Qijia Weng, Junyan Cheng and Xueshi Li.
@@ -94,7 +95,7 @@ You will get `outout.csv` , which is the final design result.
 $ taskset -c 0-1 python Get_Trans.py
 ```
 2. Because of unknown reasons you cannot just activate multiple programs or all cpu threads would be occupied by single program and can not keep simulating.
-3. The whole generating progress will take about 10*24 hrs (on my PC with CPU i5-13600k). So I highly recommed you follow 2 to run multiple threads.
+3. The whole generating progress will take about 10*24 hrs (on my PC with CPU i5-13600k). So I highly recommed you follow 1 to run multiple threads.
 4. You can install either cpu or gpu version Pytorch, in this document cpu version is installed.
 5. Some codes in `de.py` are refered from [S. S. Panda's](https://opg.optica.org/ol/fulltext.cfm?uri=ol-47-10-2586&id=472839) source code.
 6. I'm sorry about my poor coding skills. I will be appreciated if you have suggestions.
@@ -148,3 +149,4 @@ When make is complete, run:
 $ pip install ./
 
 ```
+

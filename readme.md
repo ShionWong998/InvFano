@@ -32,8 +32,8 @@ $ pip install torch torchvision
 
 **Clone from github**
 ```shell
-$ git clone 
-$ cd 
+$ git clone https://github.com/ShionWong998/InvFano
+$ cd InvFano
 ```
 ## Run the Model
 ### Generate Permitivitties of 2D Materials
@@ -146,4 +146,5 @@ $ make S4_pyext
 When make is complete, run:
 ```shell
 $ pip install ./
+
 ```
